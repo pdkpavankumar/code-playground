@@ -1,1 +1,1 @@
-HMTL online code playground [demo](https://pdkpavankumar.github.io/code-playground/){target=_blank}.
+HMTL online code playground [demo](https://pdkpavankumar.github.io/code-playground/).
