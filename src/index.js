@@ -9,6 +9,10 @@ import 'codemirror/mode/javascript/javascript.js';
 import 'codemirror/mode/htmlmixed/htmlmixed.js';
 import 'codemirror/mode/css/css.js';
 import 'codemirror/theme/blackboard.css';
+import 'codemirror/addon/hint/show-hint.js'
+import 'codemirror/addon/hint/javascript-hint.js';
+import 'codemirror/addon/hint/css-hint.js';
+import 'codemirror/addon/hint/show-hint.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
@@ -78,3 +82,18 @@ renderChanges();
 window.javascriptcode.on('change', renderChanges);
 window.csscode.on('change', renderChanges);
 window.htmlcode.on('change', renderChanges);
+
+window.javascriptcode.on('inputRead', function onChange(editor, input) {
+  if (input.text[0] === ';' || input.text[0] === ' ' || input.text[0] === '{' || input.text[0] === '}') { return; }
+  CodeMirror.commands.autocomplete(window.javascriptcode, null, { completeSingle: false })
+ });
+
+ window.csscode.on('inputRead', function onChange(editor, input) {
+  if (input.text[0] === ';' || input.text[0] === ' ' || input.text[0] === '{' || input.text[0] === '}') { return; }
+  CodeMirror.commands.autocomplete(window.csscode, null, { completeSingle: false })
+ });
+
+ window.htmlcode.on('inputRead', function onChange(editor, input) {
+  if (input.text[0] === ';' || input.text[0] === ' ' || input.text[0] === '{' || input.text[0] === '}') { return; }
+  CodeMirror.commands.autocomplete(window.htmlcode, null, { completeSingle: false })
+ });
