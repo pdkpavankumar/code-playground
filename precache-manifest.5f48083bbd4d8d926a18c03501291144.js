@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "870aefdae00ee286efa42c3fff922fd3",
+    "revision": "bd0030829a8f4c903a4574805b6172d2",
     "url": "/code-playground/index.html"
   },
   {
-    "revision": "2082ddaa5e25839853cc",
-    "url": "/code-playground/static/css/2.3464546e.chunk.css"
+    "revision": "9546a5cf3d9b5a60daed",
+    "url": "/code-playground/static/css/2.a9a1662d.chunk.css"
   },
   {
-    "revision": "4cabf7c9b28b19170101",
+    "revision": "251fa7c6bffab659e084",
     "url": "/code-playground/static/css/main.8ae24044.chunk.css"
   },
   {
-    "revision": "2082ddaa5e25839853cc",
-    "url": "/code-playground/static/js/2.863c0d9e.chunk.js"
+    "revision": "9546a5cf3d9b5a60daed",
+    "url": "/code-playground/static/js/2.2cc8b99f.chunk.js"
   },
   {
     "revision": "99bd0487192ec9e7d9ee8fbbd91ee444",
-    "url": "/code-playground/static/js/2.863c0d9e.chunk.js.LICENSE.txt"
+    "url": "/code-playground/static/js/2.2cc8b99f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4cabf7c9b28b19170101",
-    "url": "/code-playground/static/js/main.bb681b23.chunk.js"
+    "revision": "251fa7c6bffab659e084",
+    "url": "/code-playground/static/js/main.78919804.chunk.js"
   },
   {
     "revision": "31b360f93a30505afc9d",
